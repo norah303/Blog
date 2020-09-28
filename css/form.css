@@ -1,0 +1,49 @@
+@import './style.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#form-title {
+    text-align: center;
+    padding: 20px;
+    color: rgb(132, 13, 179);
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    padding: 30px;
+    margin: 150px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+input {
+    height: 28px;
+}
+
+input, textarea {
+    padding: 1em;
+    margin: 1em;
+}
+
+#btn {
+    background-color: rgb(195, 177, 211);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3px;
+}

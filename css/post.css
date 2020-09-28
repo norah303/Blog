@@ -1,25 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
 
-#photo{
+#photo {
     width: 100px;
 }
 
-#info{
+#info {
     border-radius: 10px;
     background-color: rgba(216, 191, 216, 0.109);
     width: 400px;
-    height: 300px;
+    height: 220px;
     display: flex;
     padding: 20px;
     margin: 80px;
 }
 
-article{
+article {
     line-height: 2em;
     display: flex;
     flex-direction: column;
@@ -27,21 +27,27 @@ article{
     padding: 30px;
 }
 
-article h1{
+article h1 {
     font-size: 60px;
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
-article img{
-    width: 70%;
+article img {
+    width: 50%;
     margin: 0 auto;
     padding: 30px;
 }
 
+article p {
+  width: 64%;
+  margin: 0 auto;
+}
+
 .fa {
-    padding: 20px;
+    padding: 15px;
+    margin: 5px;
     font-size: 60px;
     width: 50px;
     text-align: center;
@@ -73,4 +79,22 @@ article img{
   .fa-pinterest {
     background: #e91c1c;
     color: white;
+  }
+
+
+  #quote{
+    border-radius: 10px;
+    background-color: rgba(216, 191, 216, 0.109);
+    width: 400px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 80px;
+  }
+
+  #below-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
