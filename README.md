@@ -11,5 +11,5 @@ I used:
 
 :blue_heart:CSS
 
-Here is a [demo]( https://norah303.github.io/blog/.)
+Here is a demo
 
