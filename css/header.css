@@ -1,0 +1,56 @@
+header {
+    background-color:  rgb(195, 177, 211);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 50px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(14, 2, 2);
+    font-weight: 900;
+    padding: 10px;
+    font-size: 20px;
+}
+
+li a:hover {
+   background-color: rgba(205, 156, 245, 0.555);
+}
+
+#logo {
+    font-size: 60px;
+    color: rgb(34, 31, 31);
+    padding: 25px;
+    margin-left: 20px;
+    font-weight: 900;
+    background-color: rgba(205, 156, 245, 0.555);;
+    height: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header{
+        height: auto;
+        text-align: center;
+    }
+
+    #logo{
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    
+}
